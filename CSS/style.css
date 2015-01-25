@@ -47,10 +47,20 @@ table {
 	border-spacing: 0;
 }
 
-/* CSS Styling Begin */
+/* Custom CSS Styling Begins */
+
+* {
+	-webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
 
 body {
 	background-color: LightGray;
+	font-family: 'Roboto', sans-serif; 
+	font-size: 16px; 
+	color: #838994; 
+	letter-spacing: 0.03em;
 }
 
 div {
@@ -58,6 +68,11 @@ div {
 }
 
 /*Navigation Section*/
+
+.content {
+	padding: 0px 15px;
+}
+
 .top-navigation {
 	background-color: #fff;
 }
@@ -66,9 +81,25 @@ div {
 	width: 970px;
 	height: 70px;
 	margin: 0 auto;
+	
 }
 
 .top-navigation .logo {
-	margin-left: 14px;
 	height: 70px;
+}
+
+.top-navigation .links {
+	float: right;
+    font-family: 'Roboto', sans-serif;
+    color: #838994;
+    font-size: 16px;
+    margin-top: 25px;
+    -webkit-font-smoothing: antialiased;
+}
+
+.links li {
+	margin-left: 1.563rem;
+}
+.links li {
+	display: inline;
 }

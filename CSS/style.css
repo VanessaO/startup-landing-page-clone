@@ -137,3 +137,29 @@ body {
 	color: #fff;
 	font-weight: 300;
 }
+
+.introduction > .big-button{
+	margin-top: 1.563rem;
+}
+
+.big-button {
+	width: 9.688rem;
+	background-color: #f15a29;
+	border-color: #f15a29;
+	text-shadow: none;
+	border-style: none;
+	border-radius: 4px;
+	padding: 1rem 1.5rem;
+	color: white;
+	font-size: 1.125rem;
+	text-align: center;
+	display: block;
+	margin: 0 auto;
+	margin-top: 1.563rem;
+}
+
+button:hover {
+background-color: #d9400e;
+border-color: #cf3d0e;
+cursor: pointer;
+}

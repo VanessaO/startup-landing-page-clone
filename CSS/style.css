@@ -105,3 +105,9 @@ div {
     cursor: pointer;
     color: #333333;
 }
+
+.introduction {
+	background-image: url('../images/first-background copy.jpg');
+	/* WHy must I prefrace this link with ../? 
+	Because I have to go one step above CSS to get to the images folder.*/
+}

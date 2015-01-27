@@ -46,33 +46,27 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+/*CSS Reset Ends*/
 
+/*Help Stylings-- TO BE DELETED LATER*/
+
+div {
+	border: 1px solid;
+}
 /* Custom CSS Styling Begins */
 
 * {
-	-webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-          box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-body {
-	background-color: LightGray;
-	font-family: 'Roboto', sans-serif; 
-	font-size: 16px; 
-	color: #838994; 
-	letter-spacing: 0.03em;
-}
-
-div {
-	border: 1px solid Chocolate;
-}
-
-/*Navigation Section*/
 
 .content {
 	padding: 0px 15px;
 }
 
+/* Navigation Section */
 .top-navigation {
 	background-color: #fff;
 }
@@ -81,7 +75,6 @@ div {
 	width: 970px;
 	height: 70px;
 	margin: 0 auto;
-	
 }
 
 .top-navigation .logo {
@@ -90,16 +83,25 @@ div {
 
 .top-navigation .links {
 	float: right;
-    font-family: 'Roboto', sans-serif;
-    color: #838994;
-    font-size: 16px;
-    margin-top: 25px;
-    -webkit-font-smoothing: antialiased;
+	margin-top: 25px;
+	font-family: 'Roboto', sans-serif; 
+	font-size: 16px; 
+	color: #838994; 
+	letter-spacing: 0.03em;
+	-webkit-font-smoothing: antialiased;
 }
 
-.links li {
-	margin-left: 1.563rem;
+.top-navigation .links li {
+	display: inline-block;
+	margin-left: 25px;
 }
-.links li {
-	display: inline;
+
+.top-navigation .links > .active {
+	color: #4c5058;
+    font-weight: 600;
+}
+
+.top-navigation .links li:hover {
+    cursor: pointer;
+    color: #333333;
 }

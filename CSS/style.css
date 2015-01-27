@@ -61,9 +61,14 @@ div {
   box-sizing: border-box;
 }
 
+body {
+	font-family: 'Roboto', sans-serif; 
+}
 
 .content {
 	padding: 0px 15px;
+	width: 970px;
+	margin: 0 auto;
 }
 
 /* Navigation Section */
@@ -72,8 +77,8 @@ div {
 }
 
 .top-navigation > .content {
-	width: 970px;
 	height: 70px;
+	width: 970px;
 	margin: 0 auto;
 }
 
@@ -107,7 +112,28 @@ div {
 }
 
 .introduction {
+	height: 45.938rem;
 	background-image: url('../images/first-background copy.jpg');
-	/* WHy must I prefrace this link with ../? 
+	/* Why must I prefrace this link with ../? 
 	Because I have to go one step above CSS to get to the images folder.*/
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+	overflow: auto;
+}
+
+.introduction h1 {
+	margin-top: 17.5rem;
+	font-size: 3.125rem;
+}
+
+.introduction h3 {
+	margin-top: 1.25rem;
+	font-size: 1.563rem;
+}
+
+.introduction h1, .introduction h3 {
+	text-align: center;
+	color: #fff;
+	font-weight: 300;
 }
